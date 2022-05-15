@@ -1,0 +1,85 @@
+* {
+    background-color: #f6f5f5;
+    font-family     : Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.css-input {
+    padding         : 5px;
+    font-size       : 15px;
+    border-width    : 2px;
+    border-color    : #000000;
+    background-color: #FFFFFF;
+    color           : #000000;
+    border-style    : ridge;
+    border-radius   : 15px;
+    box-shadow      : 0px 0px 5px rgba(66, 66, 66, .75);
+}
+
+.css-input:focus {
+    outline: none;
+}
+
+#calcular {
+    padding         : 5px;
+    margin          : 20px;
+    padding-left    : 10px;
+    padding-right   : 10px;
+    font-weight     : 300;
+    font-size       : 25px;
+    font-style      : normal;
+    color           : #00416d;
+    background-color: #f5f1da;
+    border-radius   : 15px;
+    border          : 4px double #e3dfc8;
+    transition      : .5s;
+}
+
+#calcular:hover {
+    background-color: #d9c6a5;
+    border          : 4px double #f5f1da;
+    transition      : .5s;
+}
+
+.formulario {
+    width        : 400px;
+    background   : #0f4c75;
+    padding      : 30px;
+    margin       : auto;
+    margin-top   : 100px;
+    border-radius: 4px;
+    font-family  : 'calibri';
+    color        : white;
+    box-shadow   : 5px 10px 30px #000;
+}
+
+.formulario h1 {
+    background   : transparent;
+    text-align   : center;
+    font-size    : 30px;
+    margin-top   : -15px;
+    margin-bottom: 15px;
+}
+
+#form {
+    width        : 400px;
+    background   : #0f4c75;
+    padding      : 30px;
+    margin       : auto;
+    margin-top   : 100px;
+    border-radius: 4px;
+    font-family  : 'calibri';
+    color        : white;
+    box-shadow   : 5px 10px 30px #000;
+}
+
+#form h1 {
+    background   : transparent;
+    text-align   : center;
+    font-size    : 30px;
+    margin-top   : -5px;
+    margin-bottom: 5px;
+}
+
+#form p {
+    background: transparent;
+}

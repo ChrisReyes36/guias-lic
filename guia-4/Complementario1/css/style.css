@@ -1,0 +1,73 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body,
+html {
+    width : 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background: #401735
+}
+
+.content {
+    display              : grid;
+    width                : 100%;
+    height               : 100%;
+    grid-template-columns: 100%;
+    grid-template-rows   : 25% 40% 35%;
+}
+
+.top,
+.input-select,
+.output,
+#out {
+    text-align     : center;
+    justify-content: center;
+    display        : flex;
+    align-items    : center;
+}
+
+.top {
+    color      : #2EA6A6;
+    font-size  : 4em;
+    font-weight: bold;
+}
+
+.input-select .row {
+    width                : 100%;
+    max-width            : 700px;
+    display              : grid;
+    grid-template-columns: 75% 25%;
+}
+
+.row input,
+.row select {
+    font-size : 2em;
+    padding   : 5px 10px 5px 10px;
+    border    : 2px solid #F23D6D;
+    background: #8C2A60;
+    color     : #fff;
+}
+
+#out {
+    width      : 100%;
+    max-width  : 400px;
+    height     : 100px;
+    margin-top : -300px;
+    font-size  : 2em;
+    font-weight: bold;
+}
+
+.error {
+    background: red;
+    color     : #fff;
+}
+
+.correct {
+    background: green;
+    color     : #fff;
+}

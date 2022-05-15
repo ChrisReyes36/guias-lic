@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <link rel="stylesheet" href="css/StyleFormulario.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div id="contactForm" class="contactForm">
+        <div id="formHeader" class="formHeader">
+            <h1 id="message">Contáctenos</h1>
+        </div>
+        <div id="formBody" class="formBody">
+            <form action="" method="POST" name="contactForm">
+                <div class="inputContainer">
+                    <label for="Name">
+                        <i class="fa fa-lg fa-fw fa-user"></i>
+                    </label>
+                    <input name="name" id="Name" type="text" onkeypress="return Letras(event)" onpaste="return false"
+                        required placeholder="Ingrese su nombre">
+                </div>
+                <div class="inputContainer">
+                    <label for="Email">
+                        <i class="fa fa-lg fa-fw fa-envelope"></i>
+                    </label>
+                    <input name="email" id="Email" type="email" required placeholder="Ingrese su correo electrónico">
+                </div>
+                <span id="emailOK"></span>
+                <div class="inputContainer">
+                    <textarea name="feedback" id="Message" rows="10" required
+                        placeholder="Ingrese su mensaje"></textarea>
+                </div>
+                <input id="submitBtn" class="submitBtn" type="submit" value="Enviar mensaje">
+            </form>
+        </div>
+    </div>
+    <script src="js/contacto.js"></script>
+</body>
+
+</html>

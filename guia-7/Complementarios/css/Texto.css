@@ -1,0 +1,41 @@
+* {
+    margin          : 0%;
+    padding         : 0%;
+    background-color: #fbdcc4;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.estilo1 {
+    font-family    : Georgia, 'Times New Roman', Times, serif;
+    font-size      : 20px;
+    text-align     : center;
+    color          : rgb(28, 25, 179);
+    text-decoration: none;
+}
+
+.estilo2 {
+    font-family    : monospace;
+    font-size      : 30px;
+    text-align     : left;
+    color          : seagreen;
+    text-decoration: none;
+}
+
+.estilo3 {
+    font-family    : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size      : 40px;
+    text-align     : justify;
+    color          : brown;
+    text-decoration: currentColor;
+}
+
+select {
+    background-color: rgb(245, 240, 240);
+}
+
+select option {
+    background-color: white;
+}

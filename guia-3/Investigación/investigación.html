@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Investigación</title>
+    <link rel="stylesheet" href="css/StyleInvestigación.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <br>
+    <h1>Clausuras en JavaScript</h1>
+    <br>
+    <div class="contenedor">
+        <div class="contenedor-hijo">
+            <h2>Closures</h2>
+            <br>
+            <p>
+                Una clausura o closure es una función que guarda referencias del estado adyacente (ámbito léxico). En
+                otras palabras,
+                una clausura permite acceder al ámbito de una función exterior desde una función interior. En
+                JavaScript, las clausuras
+                se crean cada vez que una función es creada.
+            </p>
+            <br>
+            <p>
+                Los closures, en castellano denominados cierres, cerraduras o clausuras, son una característica de
+                algunos lenguajes
+                entre los que se encuentra JavaScript.
+            </p>
+        </div>
+
+        <div class="contenedor-hijo">
+            <p>
+                El closure se genera cuando una función interna a otra función usa una variable local (o parámetro
+                recibido) de la
+                función externa.
+            </p>
+            <br>
+            <p>
+                Para entender las clausuras se tiene que entender las características básicas del lenguaje que las hacen
+                posibles:<br>
+                • Se puede definir una función dentro de otra.<br>
+                • Las variables accesibles desde una función son las que ésta define y las que definen las funciones que
+                la engloban.<br>
+                • Mediante esa variable se puede ejecutar esa función en un ámbito diferente al que fue definida<br>
+            </p>
+        </div>
+
+        <div class="contenedor-hijo">
+            <p>
+                Y es así cuando una función devuelve otra función, la segunda mantiene las referencias a las variables
+                que fueron definidas
+                en la primera.
+                <br><br>
+                Y el tener la capacidad de mantener las referencias, o englobarlas, o encerrarlas, es a lo que se llama
+                clausura (español
+                castellano) o closure en JavaScript.
+                <br><br>
+                ¿Son los closures realmente útiles? Un closure permite asociar algunos datos con una función que opera
+                sobre esos datos,
+                entonces se puede utilizar un closure en cualquier lugar en el que normalmente pondría un objeto con un
+                solo método.
+            </p>
+        </div>
+
+        <div class="contenedor-hijo">
+            <h2>Ejemplo 1:</h2>
+            <br>
+            <br>
+            <br>
+            <center><a href="#" id="mostrar" class="a-btn"> <span class="a-btn-text">Mostrar Ejemplo 1</span></a>
+            </center>
+        </div>
+
+        <div class="contenedor-hijo">
+            <h2>Ejemplo 2:</h2>
+            <br>
+            <br>
+            <br>
+            <center><a href="#" id="mostrar2" class="a-btn"> <span class="a-btn-text">Mostrar Ejemplo 2</span></a>
+            </center>
+        </div>
+
+        <div class="contenedor-hijo">
+            <h2>Ejemplo 3:</h2>
+            <br>
+            <br>
+            <br>
+            <center><a href="#" id="mostrar3" class="a-btn"> <span class="a-btn-text">Mostrar Ejemplo 3</span></a>
+            </center>
+        </div>
+    </div>
+    <br>
+    <br>
+    <script src="js/Investigación.js"></script>
+</body>
+
+</html>

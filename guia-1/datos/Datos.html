@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tipos de datos</title>
+    <link rel="stylesheet" href="./css/StyleDatos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <br>
+    <h1>Tipos de Datos</h1>
+    <br>
+    <div class="contenedor">
+        <div class="contenedor-hijo">
+            <h2>¿Qué es el valor null?</h2>
+            <br>
+            <p>El tipo null solo contiene el valor null, que significa sin valor, en otras palabras el valor null es un
+                literal de Javascript
+                que representa intencionalmente un valor nulo o "vacío", es uno de los valores primitivos de Javascript.
+            </p>
+            <br>
+            <h2>Tipo de null</h2>
+            <br>
+            <p>A diferencia de la idea errónea común, null no es un objeto ni un tipo. Es solo un valor especial, que se
+                puede asignar
+                a cualquier tipo de referencia y se puede castear null a cualquier tipo.</p>
+        </div>
+
+        <div class="contenedor-hijo">
+            <h2>Ejemplos:</h2>
+            <br>
+            <p>
+                // null se puede asignar a String:
+                String str = null;<br><br>
+
+                // tambien puedes asignar null a Integer:
+                Integer itr = null;<br><br>
+
+                // null también se puede asignar a Double:
+                Double dbl = null;<br><br>
+
+                // null se puede castear a String:
+                String myStr = (String) null;<br><br>
+
+                // también puede ser casteado a Integer:
+                Integer myItr = (Integer) null;<br><br>
+
+                // si es posible, no hay error:
+                Double myDbl = (Double) null;
+            </p>
+        </div>
+
+        <div class="contenedor-hijo">
+            <h2>¿Qué es el valor undefined?</h2>
+            <br>
+            <p>
+                Cuando una variable ha quedado sin definir tiene un valor especial denominado undefined, que se podría
+                traducir como
+                «sin definir«. Este valor puede resultar un poco desconcertante, ya que además de un tipo de datos,
+                existe una variable
+                con ese nombre y también es un valor como tal.
+                <br>
+                <br>
+                En primer lugar undefined es es un tipo de dato y por lo tanto se puede consultar con typeof.
+            </p>
+        </div>
+
+        <div class="contenedor-hijo">
+            <h2>Ejemplos:</h2>
+            <br>
+            <p>
+                var variable;<br>
+                if (typeof variable === "undefined") {<br>
+                console.log('ok');<br>
+                }<br><br>
+                var variable;<br>
+                if (typeof variable === undefined) {<br>
+                console.log('ok'); // No se ejecuta<br>
+                }
+            </p>
+        </div>
+    </div>
+    <br>
+</body>
+
+</html>

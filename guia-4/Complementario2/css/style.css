@@ -1,0 +1,95 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body,
+html {
+    width : 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    display              : grid;
+    grid-template-columns: 100%;
+    background           : #F2E0C9;
+}
+
+.content {
+    display              : grid;
+    grid-template-columns: 100%;
+    grid-template-rows   : 30% 70%;
+}
+
+.top {
+    text-align     : center;
+    justify-content: center;
+    display        : flex;
+    align-items    : center;
+    font-size      : 5em;
+    font-weight    : bold;
+    color          : #025959;
+}
+
+.input-data {
+    text-align        : center;
+    display           : grid;
+    grid-template-rows: 20% 80%;
+}
+
+.row {
+    display              : grid;
+    grid-template-columns: 100%;
+    grid-template-rows   : 50% 50%;
+}
+
+input {
+    width    : 100%;
+    max-width: 450px;
+    font-size: 1.6em;
+    padding  : 5px 10px 5px 10px;
+    border   : 2px solid #025959;
+    margin   : auto
+}
+
+#error {
+    width     : 100%;
+    max-width : 454px;
+    padding   : 5px 10px 5px 10px;
+    background: red;
+    margin    : auto;
+    margin-top: 3px;
+    color     : #fff;
+    font-size : 1.3em;
+    display   : none;
+}
+
+.out {
+    background: rgba(4, 173, 192, .3);
+    width     : 100%;
+    max-width : 800px;
+    height    : 250px;
+    margin    : auto;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.waiting {
+    display: none;
+}
+
+#otherwise,
+#otherwisedesc {
+    color: #555;
+}
+
+#word {
+    padding   : 15px;
+    background: rgba(4, 173, 192, .3);
+    font-size : 2.5em;
+}
+
+#desc {
+    padding  : 15px;
+    font-size: 1.3em;
+}

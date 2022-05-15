@@ -1,0 +1,35 @@
+body {
+    font-family     : 'Prompt', sans-serif;
+    background-color: #e4e3e3;
+}
+
+#inventario {
+    font-size      : 20px;
+    width          : 50%;
+    margin         : auto;
+    text-align     : center;
+    border-collapse: collapse;
+}
+
+th {
+    font-size    : 20px;
+    padding      : 8px;
+    color        : #204051;
+    border-bottom: 2px solid #204051;
+}
+
+td {
+
+    text-align: center;
+    padding   : 8px;
+    color     : #3b6978;
+}
+
+#contenido {
+    position: absolute;
+    top     : 0;
+    bottom  : 0;
+    left    : 0;
+    right   : 0;
+    margin  : auto;
+}

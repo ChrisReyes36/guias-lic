@@ -1,0 +1,142 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+/*---------------------------------Body---------------------------------*/
+body {
+    color     : black;
+    background: #b9ac92;
+}
+
+/*---------------------------------Header---------------------------------*/
+.title h1 {
+    padding       : 20px 0;
+    text-align    : center;
+    font-size     : 2.9em;
+    text-transform: uppercase;
+}
+
+/*---------------------------------Menú---------------------------------*/
+/*Cuerpo*/
+.nav {
+    width     : 100%;
+    margin    : 0;
+    background: #4a3f35;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+/*Menú*/
+.menu>li {
+    position: relative;
+    display : inline-block;
+}
+
+.menu>li>a {
+    display        : block;
+    padding        : 20px 55px;
+    color          : white;
+    font-size      : 1.5rem;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background: #2f2519;
+    color     : #fa7d09;
+    transition: all .5s;
+}
+
+/*Submenú*/
+.submenu {
+    position  : absolute;
+    background: #4a3f35;
+    width     : 100%;
+    visibility: hidden;
+    opacity   : 0;
+    transition: opacity 1s;
+}
+
+.submenu li a {
+    display        : block;
+    padding        : 5px;
+    text-align     : center;
+    color          : white;
+    font-size      : 1.5rem;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity   : 5;
+}
+
+/*---------------------------------container---------------------------------*/
+.contenedor1 {
+    width    : 90%;
+    max-width: 1000px;
+    margin   : auto;
+    display  : grid;
+    gap      : 1.6em;
+}
+
+.contenedor1>.header,
+.contenedor1>.contenedor2,
+.contenedor1>div {
+    background: #fbe6d4;
+    padding   : 20px;
+    border    : 2px solid black;
+}
+
+.contenedor1>.contenedor2 {
+    grid-column: span 3;
+    grid-row   : span 4;
+}
+
+.contenedor2>.info {
+    text-align: center;
+    background: #916a45;
+    padding   : 20px;
+    margin-top: 5px;
+    color     : rgb(255, 255, 255);
+    border    : 2px solid black;
+}
+
+.contenedor2 .info h2,
+.contenedor2 .info p {
+    padding: 5px;
+}
+
+.contenedor1>.trabajos {
+    background     : #fbe6d4;
+    height         : 70px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    transition     : all 0.5s ease;
+}
+
+.contenedor1>.trabajos:hover {
+    background-color: #ff9234;
+}
+
+.contenedor1 .trabajos a {
+    text-decoration: none;
+    color          : #2f2519;
+    font-size      : 2rem;
+}
+
+/*---------------------------------footer---------------------------------*/
+.footer {
+    left            : 0;
+    bottom          : 0;
+    margin-top      : 50px;
+    width           : 100%;
+    background-color: #4a3f35;
+    font-size       : 25px;
+    color           : white;
+    text-align      : center;
+}

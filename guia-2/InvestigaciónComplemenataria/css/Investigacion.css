@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ea907a;
+    font-family: 'Prompt', sans-serif;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor-hijo{
+    background-color: #fbc687;
+    width: 40%;
+    height: 360px;
+    margin: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px #ddd;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    background-color: #fbc687;
+}
+p{
+    background-color: #fbc687;
+    text-align: justify;
+}
+/*Metodo*/
+.btn {
+    background: transparent;
+    margin-top: 30px;
+}
+
+b {
+    background: transparent;
+    font-family: 'Nunito', sans-serif;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+b:hover {
+    color: rgb(187, 49, 49);
+}

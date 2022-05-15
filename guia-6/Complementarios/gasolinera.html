@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Gasolinera UNO</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/gasolineria.css" />
+</head>
+
+<body>
+  <header id="box">
+    <h1 id="flashlight">
+      <span id="flash">Gasolinera</span>
+      <span id="light">UNO</span>
+    </h1>
+  </header>
+  <form action="javascript:void(0);" class="demoForm" id="gasolineraForm">
+    <fieldset>
+      <legend>Menú de compra</legend>
+      <p>Tipo:
+        <label><input type="radio" name="size" value="4.27" checked="checked" /> Especial</label>
+        <label><input type="radio" name="size" value="4.05" /> Regular</label>
+        <label><input type="radio" name="size" value="3.96" /> Diésel </label>
+        <input type="hidden" name="sz_tot" value="0.00" />
+      </p>
+      <p id="galonesTotales"><label>Cantidad de galones:</label>
+        <input type="number" name="cantidad" value="0.05" min="0.05" max="150" step="0.05" id="gal">
+      </p>
+      <p>
+        <label>
+          Total: $ <input type="text" name="total" class="num" value="0.00" readonly="readonly" />
+        </label>
+      </p>
+      <p>
+        <input type="submit" name="submit" id="sub" value="Pagar" />
+      </p>
+    </fieldset>
+  </form>
+  <script src="js/gasolinera.js"></script>
+</body>
+
+</html>

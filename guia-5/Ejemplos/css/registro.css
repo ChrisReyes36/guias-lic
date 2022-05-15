@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+* {
+    list-style     : none;
+    text-decoration: none;
+    font-family    : 'Nunito Sans', sans-serif;
+    margin         : 0;
+    padding        : 0;
+}
+
+a {
+    text-decoration: none;
+    color          : gray;
+    padding        : 5px;
+    margin         : 4px;
+}
+
+.ul {
+
+    text-align : right;
+    width      : 700px;
+    margin-left: 500px;
+
+}
+
+span {
+    color: rgba(133, 167, 40, 0.836);
+}
+
+.menu {
+    display    : inline-block;
+    margin-top : 50px;
+    margin-left: 90px;
+    width      : 30px;
+}
+
+a:hover {
+    color: #09a12ad5;
+
+    border-radius: 5px;
+
+}
+
+.sublista {
+    display    : block;
+    margin-left: 0px;
+    padding    : 3px;
+    position   : relative;
+    height     : 30px;
+    text-align : center;
+    margin-top : 30px;
+}
+
+.submenu {
+    position        : absolute;
+    display         : none;
+    background-color: white;
+    height          : auto;
+    margin-top      : 1px;
+    margin-left     : -3px;
+    width           : 100px;
+    z-index         : 1;
+
+    padding-bottom: 10px;
+
+
+}
+
+li a:hover+ul,
+.submenu:hover {
+
+    display: block;
+
+}
+
+.logo {
+    width      : 220px;
+    margin-top : -10px;
+    margin-left: -800px;
+    position   : absolute;
+}
+
+.form {
+
+    width          : 700px;
+    height         : 400px;
+    margin-top     : 100px;
+    margin-left    : 350px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+    align-items    : center;
+    box-shadow     : 1px 1px 1px 1px #000;
+
+}
+
+table {
+    border-style: outset;
+    border-width: 1px;
+    margin      : 50px auto;
+}
+
+td {
+
+    font-family: "Lato";
+    font-size  : 9pt;
+    font-weight: 300;
+    padding    : 2.5px 30px;
+    text-align : center;
+
+}
+
+th {
+    padding: 2.5px 30px;
+}

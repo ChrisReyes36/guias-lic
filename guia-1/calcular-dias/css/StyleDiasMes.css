@@ -1,0 +1,37 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+html,
+body {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(66, 191, 145, 1) 100%);
+    height    : 100%;
+}
+
+#info {
+    margin-top: 10%;
+}
+
+header {
+    margin-top: 5%;
+}
+
+div {
+    display: block;
+    height : 120px;
+    margin : 0 auto;
+    width  : 120px;
+}
+
+header h1 {
+    color: #fff;
+    font : Bold 3.2em 'Rowdies', cursive;
+    ;
+    text-align: center;
+    text-shadow: 0 0 2px #ccc,
+        -1px -1px 0 hsl(0, 0%, 0%),
+        -2px -2px 1px hsl(0, 0%, 0%),
+        -2px -2px 2px hsl(0, 0%, 0%);
+}

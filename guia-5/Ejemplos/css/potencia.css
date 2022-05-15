@@ -1,0 +1,36 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.form {
+    background-color: aliceblue;
+    height          : 500px;
+    border-radius   : 30px;
+    width           : 500px;
+    margin-left     : 500px;
+    margin-top      : 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#base {
+    position   : absolute;
+    margin-left: 150px;
+    margin-top : 20px;
+}
+
+#potencia {
+    position   : absolute;
+    margin-top : 100px;
+    margin-left: 150px;
+}
+
+#boton {
+    position   : absolute;
+    margin-top : 160px;
+    margin-left: 200px;
+}

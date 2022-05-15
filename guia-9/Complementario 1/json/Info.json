@@ -1,0 +1,40 @@
+{
+    "cartelera": [
+        {
+            "nombreMovie1": "Rápidos y Furiosos: Hobbs & Shaw.",
+            "protagonistaMovie1": "Hobbs, Shaw y Hattie Shaw",
+            "sinopsisMovie1": "¿De qué trata?, un virus mortal creado por la malvada corporación Eteon, está a punto de ser liberado al mundo, pero, la agente Hattie (Vanessa Kirby), quien resulta ser hermana de Shaw (Jason Statham), arriesga su vida para salvarlo inyectándose el virus para contenerlo, el problema, los malos de Eteon encabezados por Brixton (Idris Elba) harán lo que sea para recuperarlo, en el proceso ensuciar el buen nombre de Hattie inculpándola de este crimen, por ello, la CIA reunirá a Hobbs (Dwayne Johnson) con Shaw para iniciar una peligrosa búsqueda a toda velocidad para salvar al mundo de este virus.",
+            "directorMovie1": "David Leitch."
+        },
+        {
+            "nombreMovie2": "Avengers End Game.",
+            "protagonistaMovie2": "Iron Man, Capitán América, Hulk, Thor, Thanos, Pantera Negra, Spider-Man.",
+            "sinopsisMovie2": "Gracias al chasquido de Thanos el mundo sufre lo que llama: La ejecución, debido a que la mitad de población desapareció en un instante. Eso incluyó a héroes como Spider-Man, Star-Lord, Scarlet Witch, el Soldado del Invierno, Groot y otros. Como vimos en el primer tráiler, los que quedaron deben arreglar lo que Thanos rompió, juntando a los Vengadores que quedaron y a nuevos aliados para ir a la batalla contra el Titan Loco.",
+            "directorMovie2": "Joe Russo, Anthony Russo."
+        },
+        {
+            "nombreMovie3": "¿Qué le pasó a Lunes?",
+            "protagonistaMovie3": "Terrence Settman, Noomi Rapace.",
+            "sinopsisMovie3": "En un futuro distópico en el que rige una estricta política de hijo único, siete hermanas gemelas criadas por su abuelo (Willem Dafoe) han logrado burlar la ley viviendo ocultas, y saliendo a la calle cada una un día a la semana. Pero cuando una de ellas desaparece, las otras seis intentarán encontrarla mientras su plan secreto es descubierto por el gobierno. Entre Matrix y Niños del hombre, un verdadero tour de force para la sueca Noomi Rapace (La chica del dragón tatuado).",
+            "directorMovie3": "Tommy Wirkola."
+        },
+        {
+            "nombreMovie4": "Aquaman: El mar te llama.",
+            "protagonistaMovie4": "Arthur Curry.",
+            "sinopsisMovie4": "En el reino de la Atlántida, Arthur Curry, mejor conocido como Aquaman, heredero del reino de los siete mares, quedará atrapado en medio de graves enfrentamientos. Curry ha sido un atlante que ha vivido toda su vida en la superficie, hasta que su pueblo lo ha reclamado. Capaz de comunicarse telepáticamente con todas las formas de vida submarina, Curry deberá enfrentarse, por un lado, a la avaricia de algunos habitantes de reino acuático, encabezada por su medio hermano, Orm Marius, conocido como Ocean Master y por el rey Nereus de Xebel, monarca de una nación rebelde que busca controlar todo el océano.",
+            "directorMovie4": "James Wan."
+        },
+        {
+            "nombreMovie5": "Megalodón.",
+            "protagonistaMovie5": "Jonas Taylor, Toshi, Jack Morris, Suyin, Jaxx Herd, Meiying.",
+            "sinopsisMovie5": "Hace algunos años el buzo experto en profundidades, Jonas Taylor, encabezó una expedición a una fosa desconocida en el fondo del océano. Ahí, él y su equipo fueron atacados por una criatura marina gigante que se pensaba extinta: un tiburón prehistórico de 23 metros conocida como Megalodonte. Taylor decide abortar la misión e intentar rescatar a todos los miembros de su equipo, sin embargo, muchos pierden la vida. Jonas se siente culpable del suceso al perder su licencia de buceo y el respeto de sus colegas, hecho que terminó afectando también su vida personal, ocasionando así el final de su matrimonio.",
+            "directorMovie5": "Jon Turteltaub."
+        },
+        {
+            "nombreMovie6": "Crepúsculo.",
+            "protagonistaMovie6": "Bella Swan, Edward Cullen, Jacob Black, Alice Cullen, Rosalie Hale, Jasper Hale.",
+            "sinopsisMovie6": "Cuando la madre de Bella Swan (Kristen Stewart) empieza a viajar con su nuevo marido, la joven de 17 años no tiene más remedio que abandonar su hogar en Phoenix y volver a vivir con su padre en la minúscula localidad de Forks, en el estado de Washington. Tras el incesante sol de Arizona, el brumoso clima gris de Forks resulta bastante exótico para Bella, al igual que sus nuevos compañeros de clase, la familia Cullen. Increíblemente atractivos y sumamente reservados, no se parecen a nadie que haya conocido, en más sentidos de lo que imagina.",
+            "directorMovie6": "Catherine Hardwicke."
+        }
+    ]
+}
